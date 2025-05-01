@@ -1,0 +1,20 @@
+{
+  "name": "backend-practice",
+  "version": "1.0.0",
+  "description": "This project is just for practice.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "Aryan Chettri",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node": "^22.9.0"
+  }
+}
