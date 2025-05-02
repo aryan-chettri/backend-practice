@@ -9,6 +9,18 @@ app.get('/', (req, res)=>{
     res.send('Hello world')
 })
 
+app.get('/informationandrequirement', (req, res)=>{
+
+
+    res.send('This port is already taken')
+})
+
+app.get('/contentcreation', (req, res)=>{
+
+    res.send('This port is only for content creation')
+})
+
+
 app.get('/information', (req, res)=>{
 
     res.send('This is the information page')
